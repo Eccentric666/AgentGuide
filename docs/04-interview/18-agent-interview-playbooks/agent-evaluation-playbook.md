@@ -388,7 +388,7 @@ Anthropic 的核心建议是：**读 transcripts 不能外包给 LLM。** Design
 ## B. Grader 设计
 5. Code-based Grader 最适合做什么？不适合做什么？
 6. LLM Judge 的三大最佳实践是什么？
-7. 为什么 LLM Judge 必须有不确��逃生门（Uncertain Escape Hatch）？
+7. 为什么 LLM Judge 必须有不确定逃生门（Uncertain Escape Hatch）？
 8. 你怎么校准 LLM Judge？Cohen's Kappa 低于多少需要重写 prompt？
 
 ## C. 系统设计
