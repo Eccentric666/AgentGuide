@@ -8,7 +8,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/03-practice/04-graduation-project.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -20,7 +20,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/03-practice/02-high-availability-rag.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -32,7 +32,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/03-practice/03-agent-security.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -44,7 +44,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/archive/2.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -56,7 +56,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/19-context-engineering-tutorial-outline.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -68,7 +68,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/23-lessons-learned.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -80,7 +80,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/06-multi-agent-frameworks.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -92,7 +92,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/12-factor-agent-architecture.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -104,7 +104,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/24-agent-sandbox-guide.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -116,7 +116,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/18-context-engineering-guide.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -128,7 +128,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/07-agentscope.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -140,7 +140,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/04-langchain-guide.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -152,7 +152,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/22-parlant-agent-compliance-deep-dive.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -164,7 +164,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/25-post-training-complete-guide.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -176,7 +176,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/agent-evaluation-complete-guide.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -188,7 +188,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/26-agent-evaluation-harness-guide.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -200,7 +200,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/14-context-engineering.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -212,7 +212,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/11-context-engineering-practices.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -224,7 +224,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/14-mcp-protocol.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -236,7 +236,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/13-context-engineering-resources.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -248,7 +248,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/20-rag-full-pipeline.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -260,7 +260,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/16-sft-finetuning.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -272,7 +272,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/22-build-your-agent-framework.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -284,7 +284,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/21-agent-reinforcement-learning.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -296,7 +296,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/08-vector-db-basics.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -308,7 +308,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/README.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -320,7 +320,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/17-claude-code-best-practices.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -332,7 +332,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/02-tech-stack/15-agent-memory.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -344,7 +344,7 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/06-career-transition.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -356,7 +356,7 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/04-coding-questions.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -368,7 +368,7 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/01-theory-questions.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -380,7 +380,7 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/12-company-interview-cases.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -392,11 +392,11 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/09-salary-negotiation.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
-    "id": "ai-agent-resume-guide",
+    "id": "ai-agent",
     "title": "AI Agent 简历编写指南",
     "description": "> 简历不是经历流水账，而是让面试官相信你能从 0 到 1 交付 Agent 系统的证据链。",
     "category": "求职",
@@ -404,7 +404,7 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/12-resume-guide.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -416,7 +416,7 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/14-llm-future-trends.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -428,7 +428,7 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/07-career-transition.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -440,7 +440,7 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/15-open-discussion.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -452,11 +452,11 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/17-coding-exercises.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
-    "id": "ai-agent-storytelling",
+    "id": "ai-agent",
     "title": "AI Agent 项目讲述技巧",
     "description": "> 面试讲项目不是背简历，而是证明你能定义问题、设计系统、处理失败并持续优化。",
     "category": "求职",
@@ -464,7 +464,7 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/13-storytelling.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -476,7 +476,7 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/08-job-hunting-guide.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -488,7 +488,7 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/11-mindset.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -500,7 +500,7 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/03-agent-questions.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -512,7 +512,7 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/13-model-evaluation.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -524,7 +524,7 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/16-llm-fundamentals.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -536,7 +536,7 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/05-algorithm-specialized.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -548,7 +548,7 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/02-rag-questions.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -560,7 +560,7 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/10-hr-interview.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -572,7 +572,139 @@
     "level": "入门",
     "type": "指南",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/06-development-specialized.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
+    "featured": false
+  },
+  {
+    "id": "agentic-rag",
+    "title": "一、先总览：面试官在 Agentic RAG 这条线上会怎么打",
+    "description": "﻿# Agentic RAG / Deep Research 彻底备战手册（补充模块对应版） > **本手册定位**：面向 AI Agent 求职与面试准备的专题复习资料，用于补充 AgentGuide 面试题库与项目讲述材料。 > 内容以公开资料、项目复盘和工程实践方法论为基础做二次整理，建议结合自己的真实项目经历进行取舍与改写。",
+    "category": "求职",
+    "tags": [],
+    "level": "入门",
+    "type": "指南",
+    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/agentic-rag-deep-research-playbook.md",
+    "date": "2026-05-25",
+    "featured": false
+  },
+  {
+    "id": "",
+    "title": "一、先总览：面试官在评测这条线上会怎么打",
+    "description": "﻿# Agent 评测 / Benchmark 彻底备战手册（补充模块对应版） > **本手册定位**：面向 AI Agent 求职与面试准备的专题复习资料，用于补充 AgentGuide 面试题库与项目讲述材料。 > 内容以公开资料、项目复盘和工程实践方法论为基础做二次整理，建议结合自己的真实项目经历进行取舍与改写。",
+    "category": "求职",
+    "tags": [],
+    "level": "入门",
+    "type": "指南",
+    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/agent-evaluation-playbook.md",
+    "date": "2026-05-25",
+    "featured": false
+  },
+  {
+    "id": "",
+    "title": "一、核心框架：项目闭环六步法",
+    "description": "﻿# STAR 法则 / 面试话术 彻底备战手册 > **本手册定位**：面向 AI Agent 求职与面试准备的专题复习资料，用于补充 AgentGuide 面试题库与项目讲述材料。 > 内容以公开资料、项目复盘和工程实践方法论为基础做二次整理，建议结合自己的真实项目经历进行取舍与改写。",
+    "category": "求职",
+    "tags": [],
+    "level": "入门",
+    "type": "指南",
+    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/star-storytelling-playbook.md",
+    "date": "2026-05-25",
+    "featured": false
+  },
+  {
+    "id": "30-2",
+    "title": "一、30 秒 + 2 分钟版本",
+    "description": "﻿# Hermes Agent 自进化 彻底备战手册 > **本手册定位**：面向 AI Agent 求职与面试准备的专题复习资料，用于补充 AgentGuide 面试题库与项目讲述材料。 > 内容以公开资料、项目复盘和工程实践方法论为基础做二次整理，建议结合自己的真实项目经历进行取舍与改写。",
+    "category": "求职",
+    "tags": [],
+    "level": "入门",
+    "type": "指南",
+    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/hermes-self-evolution-playbook.md",
+    "date": "2026-05-25",
+    "featured": false
+  },
+  {
+    "id": "skills",
+    "title": "一、先总览：面试官在 Skills 这条线上会怎么打",
+    "description": "﻿# Agent Skills / 程序性记忆 彻底备战手册（补充模块对应版） > **本手册定位**：面向 AI Agent 求职与面试准备的专题复习资料，用于补充 AgentGuide 面试题库与项目讲述材料。 > 内容以公开资料、项目复盘和工程实践方法论为基础做二次整理，建议结合自己的真实项目经历进行取舍与改写。",
+    "category": "求职",
+    "tags": [],
+    "level": "入门",
+    "type": "指南",
+    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/agent-skills-procedural-memory-playbook.md",
+    "date": "2026-05-25",
+    "featured": false
+  },
+  {
+    "id": "",
+    "title": "一、核心事实与定位",
+    "description": "﻿# Claude Code 源码分析 彻底备战手册 > **本手册定位**：面向 AI Agent 求职与面试准备的专题复习资料，用于补充 AgentGuide 面试题库与项目讲述材料。 > 内容以公开资料、项目复盘和工程实践方法论为基础做二次整理，建议结合自己的真实项目经历进行取舍与改写。",
+    "category": "求职",
+    "tags": [],
+    "level": "入门",
+    "type": "指南",
+    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/claude-code-source-playbook.md",
+    "date": "2026-05-25",
+    "featured": false
+  },
+  {
+    "id": "harness",
+    "title": "一、先总览：面试官在 Harness 这条线上会怎么打",
+    "description": "﻿# Agent Harness 彻底备战手册（补充模块对应版） > **本手册定位**：面向 AI Agent 求职与面试准备的专题复习资料，用于补充 AgentGuide 面试题库与项目讲述材料。 > 内容以公开资料、项目复盘和工程实践方法论为基础做二次整理，建议结合自己的真实项目经历进行取舍与改写。",
+    "category": "求职",
+    "tags": [],
+    "level": "入门",
+    "type": "指南",
+    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/agent-harness-playbook.md",
+    "date": "2026-05-25",
+    "featured": false
+  },
+  {
+    "id": "",
+    "title": "一、先总览：面试官在这条线上会怎么打",
+    "description": "﻿# Agent Memory 彻底备战手册（补充模块对应版） > **本手册定位**：面向 AI Agent 求职与面试准备的专题复习资料，用于补充 AgentGuide 面试题库与项目讲述材料。 > 内容以公开资料、项目复盘和工程实践方法论为基础做二次整理，建议结合自己的真实项目经历进行取舍与改写。",
+    "category": "求职",
+    "tags": [],
+    "level": "入门",
+    "type": "指南",
+    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/agent-memory-playbook.md",
+    "date": "2026-05-25",
+    "featured": false
+  },
+  {
+    "id": "",
+    "title": "一、先总览：面试官在数据合成这条线上会怎么打",
+    "description": "﻿# 数据合成 / Data Pipeline 彻底备战手册（补充模块对应版） > **本手册定位**：面向 AI Agent 求职与面试准备的专题复习资料，用于补充 AgentGuide 面试题库与项目讲述材料。 > 内容以公开资料、项目复盘和工程实践方法论为基础做二次整理，建议结合自己的真实项目经历进行取舍与改写。",
+    "category": "求职",
+    "tags": [],
+    "level": "入门",
+    "type": "指南",
+    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/data-synthesis-playbook.md",
+    "date": "2026-05-25",
+    "featured": false
+  },
+  {
+    "id": "30-2",
+    "title": "一、30 秒 + 2 分钟版本",
+    "description": "﻿# OpenClaw 源码分析 彻底备战手册 > **本手册定位**：面向 AI Agent 求职与面试准备的专题复习资料，用于补充 AgentGuide 面试题库与项目讲述材料。 > 内容以公开资料、项目复盘和工程实践方法论为基础做二次整理，建议结合自己的真实项目经历进行取舍与改写。",
+    "category": "求职",
+    "tags": [],
+    "level": "入门",
+    "type": "指南",
+    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/openclaw-source-playbook.md",
+    "date": "2026-05-25",
+    "featured": false
+  },
+  {
+    "id": "readme",
+    "title": "README",
+    "description": "﻿# AI Agent 面试备战手册合集",
+    "category": "求职",
+    "tags": [],
+    "level": "入门",
+    "type": "指南",
+    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/README.md",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -584,7 +716,7 @@
     "level": "入门",
     "type": "路线",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/05-roadmaps/learning-roadmap-development.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -596,7 +728,7 @@
     "level": "入门",
     "type": "路线",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/05-roadmaps/learning-roadmap-algorithm.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -608,7 +740,7 @@
     "level": "入门",
     "type": "路线",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/05-roadmaps/AgentGuide开源学习路线（简易版本）.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -620,7 +752,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/01-theory/09-evaluation-metrics.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -632,7 +764,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/01-theory/04-react-framework.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -644,7 +776,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/01-theory/11-llama-series.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -656,7 +788,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/01-theory/05-cot-and-planning.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -668,7 +800,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/01-theory/02-agent-history.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -680,7 +812,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/01-theory/12-qwen-series.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -692,7 +824,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/01-theory/10-deepseek-series.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -704,7 +836,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/01-theory/03-transformer.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -716,7 +848,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/01-theory/08-agent-bench.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -728,7 +860,7 @@
     "level": "入门",
     "type": "教程",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/01-theory/01-what-is-agent.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -740,7 +872,7 @@
     "level": "入门",
     "type": "资源",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/tools.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -752,7 +884,7 @@
     "level": "入门",
     "type": "资源",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/learning-resources.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -764,7 +896,7 @@
     "level": "入门",
     "type": "资源",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/31篇LLM的经典论文速读版清单.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -776,7 +908,7 @@
     "level": "入门",
     "type": "资源",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/rag/projects.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -788,7 +920,7 @@
     "level": "入门",
     "type": "资源",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/rag/vector-db.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -800,7 +932,7 @@
     "level": "入门",
     "type": "资源",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/rag/document-parsing.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -812,7 +944,7 @@
     "level": "入门",
     "type": "论文合集",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/rag/papers/README.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -824,7 +956,7 @@
     "level": "入门",
     "type": "论文合集",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/rag/papers/multimodal_rag/README.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -836,7 +968,7 @@
     "level": "入门",
     "type": "论文合集",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/rag/papers/agentic_rag/agentic_rag.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -848,7 +980,7 @@
     "level": "入门",
     "type": "论文合集",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/rag/papers/agentic_rag/README.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -860,7 +992,7 @@
     "level": "入门",
     "type": "论文合集",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/rag/papers/graphrag/README.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -872,7 +1004,7 @@
     "level": "入门",
     "type": "资源",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/agent/memory.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -884,7 +1016,7 @@
     "level": "入门",
     "type": "资源",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/agent/ai-agent-production-challenges.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -896,7 +1028,7 @@
     "level": "入门",
     "type": "资源",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/agent/official-guides.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -908,7 +1040,7 @@
     "level": "入门",
     "type": "资源",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/agent/frameworks.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -920,7 +1052,7 @@
     "level": "入门",
     "type": "资源",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/agent/evaluation-harness.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -932,7 +1064,7 @@
     "level": "入门",
     "type": "资源",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/agent/README.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -944,7 +1076,7 @@
     "level": "入门",
     "type": "论文合集",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/agent/papers/README.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -956,7 +1088,7 @@
     "level": "入门",
     "type": "论文合集",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/agent/papers/data_synthesis/README.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -968,7 +1100,7 @@
     "level": "入门",
     "type": "论文合集",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/agent/papers/agent_rl/Agent➕RL开源项目汇总.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -980,7 +1112,7 @@
     "level": "入门",
     "type": "论文合集",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/agent/papers/agent_memory/一口气读完agent memory的21篇核心论文.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -992,7 +1124,7 @@
     "level": "入门",
     "type": "论文合集",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/agent/papers/agent_memory/Agent Memory 核心论文汇总.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -1004,7 +1136,7 @@
     "level": "入门",
     "type": "论文合集",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/resources/agent/papers/agent_memory/README.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -1016,7 +1148,7 @@
     "level": "入门",
     "type": "项目索引",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/projects/README.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -1028,7 +1160,7 @@
     "level": "入门",
     "type": "项目索引",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/projects/04-end-to-end-projects/README.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -1040,7 +1172,7 @@
     "level": "入门",
     "type": "项目索引",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/projects/05-agent-workflows/README.md",
-    "date": "2026-05-23",
+    "date": "2026-05-25",
     "featured": false
   },
   {
@@ -1052,138 +1184,6 @@
     "level": "入门",
     "type": "项目索引",
     "url": "https://github.com/adongwanai/AgentGuide/blob/main/projects/06-project-collections/README.md",
-    "date": "2026-05-23",
-    "featured": false
-  },
-  {
-    "id": "ai-agent-interview-playbooks",
-    "title": "AI Agent 面试备战手册合集",
-    "description": "这组资料用于把 AgentGuide 的面试题库、项目讲述和技术教程串成可复习、可表达、可追问的专题手册。",
-    "category": "求职",
-    "tags": [],
-    "level": "进阶",
-    "type": "指南",
-    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/README.md",
-    "date": "2026-05-25",
-    "featured": false
-  },
-  {
-    "id": "agent-memory-playbook",
-    "title": "Agent Memory 彻底备战手册",
-    "description": "把 Memory 这条线从学术分类到工程落地全部打透，面试时能串成一条完整叙事。",
-    "category": "求职",
-    "tags": [],
-    "level": "进阶",
-    "type": "指南",
-    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/agent-memory-playbook.md",
-    "date": "2026-05-25",
-    "featured": false
-  },
-  {
-    "id": "agentic-rag-deep-research-playbook",
-    "title": "Agentic RAG / Deep Research 彻底备战手册",
-    "description": "把 RAG 演进、Agentic RAG、Deep Research 从概念到实现全部打透。",
-    "category": "求职",
-    "tags": [],
-    "level": "进阶",
-    "type": "指南",
-    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/agentic-rag-deep-research-playbook.md",
-    "date": "2026-05-25",
-    "featured": false
-  },
-  {
-    "id": "claude-code-source-playbook",
-    "title": "Claude Code 源码分析彻底备战手册",
-    "description": "用生产级 AI Coding Agent 的架构设计补充 Agent 工程面试表达。",
-    "category": "求职",
-    "tags": [],
-    "level": "进阶",
-    "type": "指南",
-    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/claude-code-source-playbook.md",
-    "date": "2026-05-25",
-    "featured": false
-  },
-  {
-    "id": "agent-harness-playbook",
-    "title": "Agent Harness 彻底备战手册",
-    "description": "把 Harness Engineering 从概念、机制到工程实践全部打透。",
-    "category": "求职",
-    "tags": [],
-    "level": "进阶",
-    "type": "指南",
-    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/agent-harness-playbook.md",
-    "date": "2026-05-25",
-    "featured": false
-  },
-  {
-    "id": "hermes-self-evolution-playbook",
-    "title": "Hermes Agent 自进化彻底备战手册",
-    "description": "围绕经验、Skill、使用、改进、再使用解释 Agent 自我进化闭环。",
-    "category": "求职",
-    "tags": [],
-    "level": "进阶",
-    "type": "指南",
-    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/hermes-self-evolution-playbook.md",
-    "date": "2026-05-25",
-    "featured": false
-  },
-  {
-    "id": "openclaw-source-playbook",
-    "title": "OpenClaw 源码分析彻底备战手册",
-    "description": "面向 OpenClaw 架构、设计哲学和关键实现的面试备战资料。",
-    "category": "求职",
-    "tags": [],
-    "level": "进阶",
-    "type": "指南",
-    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/openclaw-source-playbook.md",
-    "date": "2026-05-25",
-    "featured": false
-  },
-  {
-    "id": "agent-skills-procedural-memory-playbook",
-    "title": "Agent Skills / 程序性记忆彻底备战手册",
-    "description": "从概念、演进、工程落地到安全边界系统梳理 Agent Skills。",
-    "category": "求职",
-    "tags": [],
-    "level": "进阶",
-    "type": "指南",
-    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/agent-skills-procedural-memory-playbook.md",
-    "date": "2026-05-25",
-    "featured": false
-  },
-  {
-    "id": "star-storytelling-playbook",
-    "title": "STAR 法则 / 面试话术彻底备战手册",
-    "description": "把每个项目变成面试官无法拒绝的故事，把被动答辩转化为主动引导。",
-    "category": "求职",
-    "tags": [],
-    "level": "进阶",
-    "type": "指南",
-    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/star-storytelling-playbook.md",
-    "date": "2026-05-25",
-    "featured": false
-  },
-  {
-    "id": "agent-evaluation-playbook",
-    "title": "Agent 评测 / Benchmark 彻底备战手册",
-    "description": "把 Agent 评测从方法论到工程落地全部打透。",
-    "category": "求职",
-    "tags": [],
-    "level": "进阶",
-    "type": "指南",
-    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/agent-evaluation-playbook.md",
-    "date": "2026-05-25",
-    "featured": false
-  },
-  {
-    "id": "data-synthesis-playbook",
-    "title": "数据合成 / Data Pipeline 彻底备战手册",
-    "description": "把数据合成从方法论、质量保障到 Agentic 后训练闭环全部打透。",
-    "category": "求职",
-    "tags": [],
-    "level": "进阶",
-    "type": "指南",
-    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/18-agent-interview-playbooks/data-synthesis-playbook.md",
     "date": "2026-05-25",
     "featured": false
   }
