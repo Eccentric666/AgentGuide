@@ -1742,6 +1742,7 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
 **🏢 真实面经与进阶**
 
 - [x] [📋 大厂真实面经](./docs/04-interview/12-company-interview-cases.md) - 美团/字节/阿里等16个完整案例
+- [x] [🧭 AI Agent 面试备战手册合集](./docs/04-interview/18-agent-interview-playbooks/) - Memory、Skills、Harness、评估、数据合成、源码分析与项目话术
 - [x] [📊 模型评估专题](./docs/04-interview/13-model-evaluation.md) - BLEU/ROUGE、基准测试、LLM-as-Judge **10题**
 - [x] [🔮 前景与趋势](./docs/04-interview/14-llm-future-trends.md) - AGI、多模态、世界模型等开放讨论 **9题**
 - [x] [💬 开放性讨论](./docs/04-interview/15-open-discussion.md) - 技术判断、学习建议、核心素质 **8题**
