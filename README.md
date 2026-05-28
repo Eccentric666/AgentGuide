@@ -76,12 +76,12 @@
 > **AI Agent 开发学习指南 | 转行大模型 | LangGraph 实战 | 高级RAG  | 大模型面试**
 
 一份系统化、求职导向的 AI Agent 学习与面试指南，涵盖：
-- **Agent 开发**：LangChain、LangGraph、AutoGen、CrewAI、Swarm 框架教程
-- **RAG 系统**：向量数据库、Embedding、文档解析、检索优化、GraphRAG
-- **Multi-Agent**：多智能体协作、Supervisor模式、任务分解、工作流编排
-- **上下文工程**：Memory管理、Tool Loadout、Context优化（6大技巧）
-- **面试求职**：算法岗 vs 开发岗、面试题库、简历优化、大厂面经
-- **实战项目**：论文检索Agent、旅行规划Multi-Agent、Web Agent
+- **Agent 工程**：Agent Loop、LangGraph / OpenAI Agents SDK、MCP、Skills、权限与状态管理
+- **Context Engineering**：上下文分层、Memory、Tool Loadout、长任务压缩、成本与缓存优化
+- **RAG / Multimodal RAG**：文档解析、Embedding、Rerank、GraphRAG、Agentic RAG、视觉文档检索
+- **Eval / Observability / Safety**：Agent 评测集、trace、LLM-as-judge、红队、安全边界与 human-in-the-loop
+- **Post-training / Agent RL**：SFT、偏好优化、GRPO/DPO、工具调用数据合成、轨迹数据训练
+- **实战与求职**：Paper Agent、Travel Agent、Web Agent、项目复盘、简历表达与面试题库
 
 ### 🗺️ AgentGuide 在 LLM 生态中的定位
 
@@ -92,70 +92,68 @@
 <sub>图片来源：<a href="https://github.com/Langchainai/llm-oss-landscape">LLM Open Source Landscape</a></sub>
 </div>
 
-**📌 AgentGuide 涵盖的核心技术栈**：
+**📌 AgentGuide 涵盖的核心技术栈（2026 版）**：
 
 <table>
 <tr>
 <td width="33%">
 
-**🤖 AI Agent 层**（核心）
-- ✅ **Agent 框架**
-  - LangGraph、LangChain
-  - AutoGen、CrewAI
-  - Swarm、CAMEL-AI
-- ✅ **Agent 工作流**
+**🤖 Agent 应用层**
+- ✅ **Agent / Workflow**
+  - LangGraph、OpenAI Agents SDK
+  - AutoGen、CrewAI、Pydantic AI
   - Dify、n8n、Flowise
-- ✅ **Multi-Agent 协作**
-- ✅ **Memory & Tool Use**
+- ✅ **任务形态**
+  - Research / Coding / Web Agent
+  - Multi-Agent / Supervisor / Handoff
+  - Computer Use / Browser Automation
 
 </td>
 <td width="33%">
 
-**🔧 Training 层**（算法岗必备）
-- ✅ **模型微调（Fine-tuning）**
-  - SFT（监督微调）
-  - LoRA、QLoRA、Adapter
-  - Function Call 微调
-  - LlaMA-Factory 实战
-- ✅ **强化学习（RLHF）**
-  - PPO、DPO、GRPO
-  - Reward Model 训练
-  - Agent RL 策略优化
-- ✅ **训练框架**
-  - PyTorch、DeepSpeed
-  - 分布式训练优化
+**🧩 Agent Harness 层**（核心）
+- ✅ **Context Engineering**
+  - System / Memory / Retrieval / Trace
+  - Context Compression、Prompt Cache
+- ✅ **Tools & Protocols**
+  - Tool Schema、MCP、Skills
+  - A2A / ACP、权限分级
+- ✅ **Reliability**
+  - Sandbox、HITL、Retry、Cost Guard
+  - Trace、Replay、Observability
 
 </td>
 <td width="33%">
 
-**📊 AI Data 层**（开发岗常用）
-- ✅ **向量数据库**
-  - Milvus、Chroma
-  - Qdrant、FAISS
-- ✅ **数据处理**
-  - 文档解析、OCR
-  - Embedding 模型
-- ✅ **应用框架**
-  - FastAPI、Streamlit
-  - Gradio
+**📊 Data / Eval / Training 层**
+- ✅ **RAG & Data**
+  - Docling、MinerU、Unstructured
+  - Milvus、Qdrant、Chroma、FAISS
+  - GraphRAG、Agentic RAG、Multimodal RAG
+- ✅ **Eval & Safety**
+  - Promptfoo、DeepEval、Inspect、RAGAS
+  - WebArena、OSWorld、SWE-bench
+- ✅ **Post-training**
+  - SFT、LoRA / QLoRA、DPO / GRPO
+  - Tool-use / Trajectory 数据合成
 
 </td>
 </tr>
 </table>
 
-> **💡 AgentGuide 的完整覆盖**：  
-> 
-> **🔬 算法工程师路径**：  
-> - Agent 架构算法（ReAct、Reflexion、ToT）+ RAG算法优化（GraphRAG、Agentic RAG、GraphRAG）  
-> - 模型微调（SFT、LoRA）+ 强化学习（PPO、DPO、GRPO）  
-> - 实验设计 + 论文撰写 + 算法优化  
-> 
-> **🛠️ 开发工程师路径**：  
-> - Agent 框架实战（LangChain、LangGraph、AutoGen）+ RAG 系统搭建  
-> - 向量数据库+ 文档解析  
-> - 系统设计 + 性能优化 + 生产部署  
-> 
-> **🔀 通吃型路径**：完整技术栈，算法创新 + 工程落地双修
+> **💡 AgentGuide 的完整覆盖**：
+>
+> **🔬 算法工程师路径**：
+> - Agent 推理与规划：ReAct、Reflexion、Tree/Graph Search、Tool-use 策略
+> - RAG 与记忆算法：Hybrid Retrieval、Rerank、GraphRAG、Agentic RAG、Memory 压缩与召回
+> - Post-training：SFT、LoRA/QLoRA、DPO/GRPO、工具调用/轨迹数据合成与评测
+>
+> **🛠️ 开发工程师路径**：
+> - Agent Harness：状态管理、工具注册、权限确认、sandbox、trace、replay、成本控制
+> - 工具与协议：MCP、Skills、A2A/ACP、API adapter、Browser / Computer-use 工具封装
+> - 生产级 RAG：文档解析、向量库、rerank、引用、观测、CI eval 与安全红队
+>
+> **🔀 通吃型路径**：用算法能力提升 Agent 决策质量，用工程能力把 Agent 做成可运行、可评测、可复盘、可写进简历的系统。
 
 ---
 
@@ -166,8 +164,8 @@
 - ✅ LLM 应用工程师 | 大模型工程师 | 多模态算法工程师
 
 **学习需求**：
-- ✅ LangChain 学习 | LangGraph 教程 | AutoGen 实战
-- ✅ RAG 开发 | 向量数据库 | Agent Memory
+- ✅ Agent Loop | LangGraph | OpenAI Agents SDK | MCP / Skills
+- ✅ RAG / Multimodal RAG | 向量数据库 | Agent Memory | Eval Harness
 - ✅ 大模型面试 | 算法岗面试 | 开发岗面试 | HR面试 | 谈薪技巧
 
 
