@@ -2063,10 +2063,6 @@ python quickstart_rag_agent.py
 
 
 **🎁 社群福利**：Agent 学习路线图 PDF + 面试题库 + 项目代码模板 + 大厂内推机会
-## Openclaw API Key
-这是我用过最便宜，价格最实惠的Key
-![](https://raw.githubusercontent.com/adongwanai/Awesome-Awesome-LLMs/main/5c715bba551b1354570f5744a1c487f2.jpg)
-
 ---
 
 ### ⭐ 如果这个项目对你有帮助
