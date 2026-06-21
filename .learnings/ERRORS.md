@@ -25,11 +25,44 @@ SyntaxError: Invalid regular expression: /??\s+(\d+)?/g: Nothing to repeat
 
 ### Metadata
 - Reproducible: yes
-- Related Files: docs/05-roadmaps/personal-agent-algorithm-24-week-plan.md
+- Related Files: docs/05-roadmaps/personal-ai-agent-34-week-plan.md
 
 ### Resolution
 - **Resolved**: 2026-06-21T18:12:00+08:00
 - **Notes**: 改用 PowerShell 原生正则完成校验。
+
+---
+
+## [ERR-20260621-003] powershell-foreach-spacing
+
+**Logged**: 2026-06-21T20:15:00+08:00
+**Priority**: low
+**Status**: resolved
+**Area**: tests
+
+### Summary
+为缩短 PowerShell 校验命令而移除关键空格，导致 `foreach` 语句无法解析。
+
+### Error
+
+```text
+Missing 'in' after variable in foreach loop.
+```
+
+### Context
+- 将 `foreach ($m in $rows)` 压缩成了 `foreach($m in$rows)`。
+- 三个并行校验命令均在解析阶段失败，未修改任何文件。
+
+### Suggested Fix
+复杂 PowerShell 校验脚本保持可读格式，不压缩关键语法空格。
+
+### Metadata
+- Reproducible: yes
+- Related Files: docs/05-roadmaps/personal-ai-agent-34-week-plan.md
+
+### Resolution
+- **Resolved**: 2026-06-21T20:16:00+08:00
+- **Notes**: 使用标准 `foreach ($x in $items)` 语法重跑校验。
 
 ---
 
@@ -58,7 +91,7 @@ Variable reference is not valid. ':' was not followed by a valid variable name c
 
 ### Metadata
 - Reproducible: yes
-- Related Files: docs/05-roadmaps/personal-agent-algorithm-24-week-plan.md
+- Related Files: docs/05-roadmaps/personal-ai-agent-34-week-plan.md
 
 ### Resolution
 - **Resolved**: 2026-06-21T19:16:00+08:00
