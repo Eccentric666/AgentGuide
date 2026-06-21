@@ -27,3 +27,32 @@
 - **Notes**: 已将计划统一为每天 60 分钟，为 168 天逐日增加资源列，并收敛项目和算法目标。
 
 ---
+
+## [LRN-20260621-002] correction
+
+**Logged**: 2026-06-21T19:00:00+08:00
+**Priority**: high
+**Status**: resolved
+**Area**: docs
+
+### Summary
+Agent 专项计划不得混入用户另行安排的算法学习，计划周期应由能力目标决定，而不是机械限制为 24 周。
+
+### Details
+v1.1 仍将 40 道算法题和 Transformer、LoRA、Post-Training 等模型算法内容计入每天 1 小时。用户明确说明算法练习与算法学习会独立进行，不占 Agent 学习时间；同时学习周期可以适当延长。
+
+### Suggested Action
+将文件重构为纯 Agent 专项路线，移除算法练习和模型算法章节；根据 Agent 工程、项目、评测、安全和求职产出重新估算周期，并保持逐日资源和验收。
+
+### Metadata
+- Source: user_feedback
+- Related Files: docs/05-roadmaps/personal-agent-algorithm-24-week-plan.md
+- Tags: scope, agent-only, duration, planning
+- See Also: LRN-20260621-001
+
+### Resolution
+- **Resolved**: 2026-06-21T19:30:00+08:00
+- **Commit/PR**: 505bea9e
+- **Notes**: 已移除全部算法练习与模型算法日程，扩展为 30 周、210 天纯 Agent 专项计划。
+
+---
