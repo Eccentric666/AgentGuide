@@ -1,18 +1,16 @@
-# 个人 AI Agent 专项学习计划（30 周，每天 1 小时）
+# 个人 AI Agent 开发与模型基础学习计划（34 周，每天 1 小时）
 
 > 适用对象：AI Agent / 大模型应用零基础，目标岗位为 Agent 开发、LLM 应用开发、RAG / Agent 相关岗位。
 >
-> 计划周期：**2026-06-22 ～ 2027-01-17，共 30 周 / 210 天 / 约 210 小时**。
+> 计划周期：**2026-06-22 ～ 2027-02-14，共 34 周 / 238 天 / 约 238 小时**。
 >
 > 时间约束：**工作日和周末均按每天约 1 小时设计**。
 >
-> 范围约束：**本计划只管理 Agent 学习。数据结构、通用算法、模型算法等学习由你单独安排，不占用这里的每天 1 小时，也不在本文件统计。**
+> 范围约束：**LeetCode 式数据结构与算法学习由你单独安排，不占用这里的每天 1 小时，也不在本文件统计。Transformer、Embedding、LoRA、SFT、DPO/GRPO、Agent 规划与检索等模型和 Agent 算法属于本计划。**
 >
-> 文件名沿用旧名称以保持 Git 历史和已有链接稳定；从 v1.2 起，文件内容是纯 Agent 专项路线。
->
-> 当前版本：v1.2（2026-06-21）；本文件是后续计划、进度、复盘与调整的唯一事实来源。
+> 当前版本：v1.3（2026-06-21）；本文件是后续计划、进度、复盘与调整的唯一事实来源。
 
-## 1. 30 周后的目标
+## 1. 34 周后的目标
 
 - 掌握 Python、Git、HTTP、FastAPI、测试等 Agent 工程最低基础。
 - 能解释 chatbot、workflow、agent、RAG、context、memory、harness、eval、MCP、multi-agent 的边界。
@@ -22,15 +20,16 @@
 - 能使用 LangGraph 或等价状态机实现暂停、恢复、重试和 human-in-the-loop。
 - 能设计 Agent Harness、Evaluation Harness、Context、Memory、Observability 和安全边界。
 - 能完成一个 MCP Server、一个可复用 Skill 和一个有对照实验的 multi-agent 小流程。
+- 理解 Transformer、Attention、Embedding、SFT、LoRA、DPO、PPO、GRPO 的核心原理及其与 Agent 能力的关系。
+- 理解 ReAct、Plan-and-Execute、Reflection、Tree Search、检索和 Memory 策略的算法取舍，并完成最小实验。
 - 形成一页简历、作品集入口、项目架构图、评测报告、3～5 分钟项目介绍、模拟面试和投递反馈台账。
 
 本计划不包含：
 
 - LeetCode、数据结构与通用算法训练。
-- Transformer、LoRA、SFT、DPO、PPO、GRPO 等模型算法专项学习。
 - 大规模预训练、分布式训练和完整 RLHF 训练。
 
-这些内容可以平行学习，但不得挤占本计划每天 1 小时的 Agent 时间。
+LeetCode 式算法可以平行学习，但不得挤占本计划每天 1 小时的 Agent 时间。
 
 ## 2. 每天 60 分钟的执行方式
 
@@ -43,7 +42,7 @@
 
 周复盘日采用 `15 分钟回顾 + 30 分钟补缺 + 15 分钟更新计划`。
 
-每天只要求完成一个核心任务。60 分钟后仍未通过验收，标记为 `🔁`，放到后续复盘日继续，不通过挤占算法时间或熬夜追赶。
+每天只要求完成一个核心任务。60 分钟后仍未通过验收，标记为 `🔁`，放到后续复盘日继续，不挤占独立的 LeetCode 学习时间，也不熬夜追赶。
 
 ### 状态标记
 
@@ -92,6 +91,11 @@
 | G27 | [求职攻略](../04-interview/08-job-hunting-guide.md) |
 | G28 | [职业转型指南](../04-interview/07-career-transition.md) |
 | G29 | [2026 Agent 求职路线](./agent-job-ready-roadmap-2026.md) |
+| G30 | [Transformer 架构详解](../01-theory/03-transformer.md) |
+| G31 | [SFT 微调实战](../02-tech-stack/16-sft-finetuning.md) |
+| G32 | [Post-Training 面试笔记](../02-tech-stack/25-post-training-complete-guide.md) |
+| G33 | [大模型算法手写题](../04-interview/17-coding-exercises.md) |
+| G34 | [Agent Reinforcement Learning](../02-tech-stack/21-agent-reinforcement-learning.md) |
 
 ### 3.2 外部官方资源
 
@@ -118,8 +122,16 @@
 | R19 | [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/) |
 | R20 | [OpenTelemetry Python](https://opentelemetry.io/docs/languages/python/) |
 | R21 | [Prometheus Python Client](https://prometheus.github.io/client_python/) |
+| R22 | [NumPy 快速入门](https://numpy.org/doc/stable/user/quickstart.html) |
+| R23 | [PyTorch Transformer 组件](https://pytorch.org/docs/stable/nn.html#transformer-layers) |
+| R24 | [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1) |
+| R25 | [Hugging Face TRL 文档](https://huggingface.co/docs/trl/index) |
+| R26 | [ReAct 论文](https://arxiv.org/abs/2210.03629) |
+| R27 | [Reflexion 论文](https://arxiv.org/abs/2303.11366) |
+| R28 | [Tree of Thoughts 论文](https://arxiv.org/abs/2305.10601) |
+| R29 | [LoRA 论文](https://arxiv.org/abs/2106.09685) |
 
-## 4. 30 周逐日计划
+## 4. 34 周逐日计划
 
 # 阶段 A：工程基础与 Agent 最小闭环
 
@@ -521,35 +533,93 @@
 | ⬜ | Day 195 / 01-02 | 对比手写 loop、LangGraph、Agents SDK | G02「框架怎么选」；R16 | 形成选型矩阵 |
 | ⬜ | Day 196 / 01-03 | 阶段复盘；确定作品集技术栈 | G19 | 写最终 ADR |
 
-# 阶段 E：生产化、作品集与求职
+# 阶段 E：模型基础与 Agent 算法
 
-## 第 29 周：部署、作品集与简历
+## 第 29 周：Transformer、Token 与 Embedding
+
+**本周验收**：能解释 token、embedding、position、Q/K/V、attention 和 Transformer Block 的作用。
+
+| 状态 | Day / 日期 | 60 分钟安排 | 学习资源 | 当日验收 |
+|:---:|:---|:---|:---|:---|
+| ⬜ | Day 197 / 01-04 | 建立 Transformer 全局结构认知 | G30「概述」；R24「Transformer models」 | 画输入到输出的模块图 |
+| ⬜ | Day 198 / 01-05 | 理解 token、token id 与 embedding | R24；G30 | 写三者区别和 shape 示例 |
+| ⬜ | Day 199 / 01-06 | 学位置编码和序列位置信息 | G30；G33「位置编码」 | 解释为什么需要位置编码 |
+| ⬜ | Day 200 / 01-07 | 理解 Q/K/V 和 scaled dot-product attention | G33「Attention 机制核心」；R23 | 用自己的话解释 Q/K/V |
+| ⬜ | Day 201 / 01-08 | 理解 multi-head、causal mask | G33「注意力变体」；R23 | 画 mask 前后注意力矩阵 |
+| ⬜ | Day 202 / 01-09 | 理解 residual、LayerNorm、FFN | G33「Transformer 完整模块」；G30 | 画一个 Transformer Block |
+| ⬜ | Day 203 / 01-10 | 联系 Agent：模型能力、context、embedding 检索的分工 | G11；G15；G30 | 写一页“模型与 Harness 的边界” |
+
+## 第 30 周：Attention 与 Transformer 最小代码
+
+**本周验收**：能用 NumPy/PyTorch 实现并解释 softmax、单头 attention、causal mask 和最小 Transformer Block。
+
+| 状态 | Day / 日期 | 60 分钟安排 | 学习资源 | 当日验收 |
+|:---:|:---|:---|:---|:---|
+| ⬜ | Day 204 / 01-11 | 复习向量、矩阵乘法和 shape | R22「基础与数组运算」 | 手算一个小矩阵乘法 |
+| ⬜ | Day 205 / 01-12 | 手写数值稳定的 softmax | G33「激活函数」；R22 | 极端输入不溢出 |
+| ⬜ | Day 206 / 01-13 | 手写单头 scaled dot-product attention | G33「Softmax Attention」 | 测试输出 shape |
+| ⬜ | Day 207 / 01-14 | 为 attention 增加 causal mask | G33「Causal Attention」 | 未来位置权重为 0 |
+| ⬜ | Day 208 / 01-15 | 理解并实现 multi-head reshape 流程 | G33「Multi-Head Attention」；R23 | 注释每次 shape 变化 |
+| ⬜ | Day 209 / 01-16 | 拼装最小 Transformer Block | G33「完整 Block」；R23 | forward 可运行 |
+| ⬜ | Day 210 / 01-17 | 脱离资料讲解代码并周复盘 | G30；G33 | 录 8 分钟白板讲解 |
+
+## 第 31 周：SFT、数据与 LoRA
+
+**本周验收**：能判断 Prompt/RAG/SFT 的边界，理解训练样本、labels mask、LoRA/QLoRA，并完成最小 LoRA 代码。
+
+| 状态 | Day / 日期 | 60 分钟安排 | 学习资源 | 当日验收 |
+|:---:|:---|:---|:---|:---|
+| ⬜ | Day 211 / 01-18 | 对比 Prompt、RAG、SFT 的适用场景 | G31「基础概念篇」 | 完成技术选型表 |
+| ⬜ | Day 212 / 01-19 | 理解 SFT 数据格式和 chat template | G31「数据构建篇」；G32「2.1」 | 构造一条训练样本 |
+| ⬜ | Day 213 / 01-20 | 理解 input_ids、attention mask、labels=-100 | G32「Labels 掩码设计」 | 标出计算 loss 的 token |
+| ⬜ | Day 214 / 01-21 | 理解 LoRA 的 `W'=W+BA`、rank 和 alpha | R29；G31「LoRA、PEFT」 | 画 LoRA 旁路并解释参数量 |
+| ⬜ | Day 215 / 01-22 | 手写最小 `LoRALinear` | G33「训练优化技术」 | forward shape 正确 |
+| ⬜ | Day 216 / 01-23 | 理解 QLoRA、量化和显存取舍 | G31「技术实施篇」；G32 | 写 LoRA/QLoRA 对比表 |
+| ⬜ | Day 217 / 01-24 | 为 Agent tool-use 设计 10 条 SFT 样本并复盘 | G32「Tool Call 掩码策略」 | 数据有 schema 和质量检查 |
+
+## 第 32 周：Post-Training 与 Agent 推理算法
+
+**本周验收**：能区分 PPO、DPO、GRPO，理解 Agent reward，并比较 ReAct、Reflection、Tree Search 的取舍。
+
+| 状态 | Day / 日期 | 60 分钟安排 | 学习资源 | 当日验收 |
+|:---:|:---|:---|:---|:---|
+| ⬜ | Day 218 / 01-25 | 浏览 SFT→RM→PPO/DPO/GRPO 完整链路 | G32「1.2 完整链路」 | 画 Post-Training 地图 |
+| ⬜ | Day 219 / 01-26 | 理解 reward model、preference data 和 reward hacking | G32「强化学习与对齐」 | 写 5 对 chosen/rejected 示例 |
+| ⬜ | Day 220 / 01-27 | 对比 PPO、DPO、GRPO 的输入、目标和成本 | G32；R25 | 完成三者对比表 |
+| ⬜ | Day 221 / 01-28 | 为 Agent tool-use 设计 outcome/process/safety reward | G34；G09 | 每类 reward 给出可计算示例 |
+| ⬜ | Day 222 / 01-29 | 精读 ReAct 的方法与轨迹结构 | R26；G06 | 画 ReAct 算法流程 |
+| ⬜ | Day 223 / 01-30 | 对比 Reflexion 与 Tree of Thoughts | R27；R28；G07 | 写适用场景和成本差异 |
+| ⬜ | Day 224 / 01-31 | 设计 ReAct vs ReAct+Reflection 小实验并复盘 | G08；G09 | 明确数据、指标、变量和停止条件 |
+
+# 阶段 F：生产化、作品集与求职
+
+## 第 33 周：部署、作品集与简历
 
 **本周验收**：主项目可用 Docker 启动，作品集和一页简历完成。
 
 | 状态 | Day / 日期 | 60 分钟安排 | 学习资源 | 当日验收 |
 |:---:|:---|:---|:---|:---|
-| ⬜ | Day 197 / 01-04 | 为 Paper Agent 写 Dockerfile | R18「Get Started」 | 镜像可构建 |
-| ⬜ | Day 198 / 01-05 | 增加健康检查和配置模板 | R18；G19 | 容器可启动并检查 |
-| ⬜ | Day 199 / 01-06 | 跑最终全量 eval 和安全测试 | G17；G18 | 指标报告归档 |
-| ⬜ | Day 200 / 01-07 | 完善 README、架构图、限制说明 | G19「最终标准」 | 新读者能理解并运行 |
-| ⬜ | Day 201 / 01-08 | 录 3～5 分钟项目 demo | G20「简历表达」 | 视频覆盖价值、架构、评测 |
-| ⬜ | Day 202 / 01-09 | 写一页简历初稿 | G26；G19「简历写法」 | 每条数字可复现 |
-| ⬜ | Day 203 / 01-10 | 组织作品集入口并周复盘 | G26 | Paper/Web Agent 链接完整 |
+| ⬜ | Day 225 / 02-01 | 为 Paper Agent 写 Dockerfile | R18「Get Started」 | 镜像可构建 |
+| ⬜ | Day 226 / 02-02 | 增加健康检查和配置模板 | R18；G19 | 容器可启动并检查 |
+| ⬜ | Day 227 / 02-03 | 跑最终全量 eval 和安全测试 | G17；G18 | 指标报告归档 |
+| ⬜ | Day 228 / 02-04 | 完善 README、架构图、限制说明 | G19「最终标准」 | 新读者能理解并运行 |
+| ⬜ | Day 229 / 02-05 | 录 3～5 分钟项目 demo | G20「简历表达」 | 视频覆盖价值、架构、评测 |
+| ⬜ | Day 230 / 02-06 | 写 Agent 开发与算法两版项目 bullet | G26；G19「简历写法」 | 每条数字可复现 |
+| ⬜ | Day 231 / 02-07 | 组织作品集入口并周复盘 | G26 | Paper/Web Agent 链接完整 |
 
-## 第 30 周：面试、投递与下一阶段
+## 第 34 周：面试、投递与下一阶段
 
 **本周验收**：完成两次模拟面试、首批投递和下一阶段计划。
 
 | 状态 | Day / 日期 | 60 分钟安排 | 学习资源 | 当日验收 |
 |:---:|:---|:---|:---|:---|
-| ⬜ | Day 204 / 01-11 | 准备 30 秒自我介绍和 3 分钟项目介绍 | G28；G19 | 录音并删掉术语堆砌 |
-| ⬜ | Day 205 / 01-12 | 回答 Agent 核心问题 | G23「第一～六部分」 | 标记薄弱题 |
-| ⬜ | Day 206 / 01-13 | 回答 RAG、Harness、Eval 与安全问题 | G24；G25 | 回答结合自己的项目 |
-| ⬜ | Day 207 / 01-14 | 模拟面试 1：Agent 开发与项目 | G23；G25 | 按知识、表达、证据评分 |
-| ⬜ | Day 208 / 01-15 | 模拟面试 2：系统设计与失败复盘 | G15；G19 | 列 5 个最高优先级缺口 |
-| ⬜ | Day 209 / 01-16 | 收集 10 个 JD，定制简历并首批投递 | G27；G29 | 建立岗位/版本/状态台账 |
-| ⬜ | Day 210 / 01-17 | 30 周总复盘；制定下一阶段 4 周计划 | 第 5 节模板；G29 | 写成果、缺口、反馈和下步 |
+| ⬜ | Day 232 / 02-08 | 准备 30 秒自我介绍和 3 分钟项目介绍 | G28；G19 | 录音并删掉术语堆砌 |
+| ⬜ | Day 233 / 02-09 | 回答 Agent、RAG、Harness、Eval 与安全问题 | G23；G24；G25 | 标记薄弱题 |
+| ⬜ | Day 234 / 02-10 | 回答 Transformer、LoRA、SFT、DPO/GRPO 问题 | G30～G34 | 回答包含直觉、取舍和项目联系 |
+| ⬜ | Day 235 / 02-11 | 模拟面试 1：Agent 开发与项目 | G23；G25 | 按知识、表达、证据评分 |
+| ⬜ | Day 236 / 02-12 | 模拟面试 2：模型基础、Agent 算法与系统设计 | G30～G34；G15 | 列 5 个最高优先级缺口 |
+| ⬜ | Day 237 / 02-13 | 收集 10 个 JD，定制简历并首批投递 | G27；G29 | 建立岗位/版本/状态台账 |
+| ⬜ | Day 238 / 02-14 | 34 周总复盘；制定下一阶段 4 周计划 | 第 5 节模板；G29 | 写成果、缺口、反馈和下步 |
 
 ## 5. 每周复盘模板
 
@@ -567,7 +637,7 @@
 - 下周删减：
 - 是否需要调整未来日期：
 
-说明：算法学习不在本周报统计。
+说明：LeetCode 式数据结构与算法学习不在本周报统计；模型基础与 Agent 算法属于本计划。
 ```
 
 ## 6. 项目验收清单
@@ -599,8 +669,8 @@
 |:---|:---|
 | 当前日期 | 2026-06-21 |
 | 当前周 / Day | Week 0 / Day 0 |
-| Agent 完成天数 | 0 / 210 |
-| Agent 累计学习小时 | 0 / 210 |
+| Agent 完成天数 | 0 / 238 |
+| Agent 累计学习小时 | 0 / 238 |
 | 最小 Agent | 未开始 |
 | Paper Agent | 未开始 |
 | Paper Agent Eval | 0 / 20+ |
@@ -613,14 +683,15 @@
 | 当前最大阻塞 | 无 |
 | 下一步 | 执行 Day 1 |
 
-> 算法学习拥有独立计划和统计，不在本仪表盘出现。
+> LeetCode 式数据结构与算法学习拥有独立计划和统计，不在本仪表盘出现。
 
 ## 8. Git 生命周期与同步规则
 
 ### 8.1 单一事实来源
 
 - Agent 安排、完成状态、延期、删减、周报和求职进度全部维护在本文件。
-- 算法学习使用独立计划，不向本文件添加算法题、算法进度或算法耗时。
+- LeetCode 式数据结构与算法学习使用独立计划，不向本文件添加刷题进度或耗时。
+- Transformer、Embedding、SFT/LoRA、Post-Training 和 Agent 推理/检索/记忆算法继续由本文件管理。
 - 不另建“Agent 最新版计划”；历史通过 Git commit、tag 和 diff 保留。
 - 已完成日期不改写历史，只调整尚未开始的任务。
 
@@ -641,7 +712,7 @@
 - 单日未完成：标记 `🔁`，放到最近周复盘日处理。
 - 连续 3 天未完成：删除可选阅读，不压缩实作和复盘。
 - 连续 7 天未完成：暂停新增知识一周，只恢复节奏。
-- 计划可以继续延长，不以 30 周为硬截止；优先保证理解和项目质量。
+- 计划可以继续延长，不以 34 周为硬截止；优先保证理解和项目质量。
 - 中断 7～21 天：保留已完成记录，重排未来日期并提升次版本号。
 - 中断超过 21 天或目标岗位变化：重新做能力盘点，建立 v2.0。
 
@@ -652,3 +723,4 @@
 | v1.0 | 2026-06-21 | 建立 24 周、168 天初版计划 | 建立 Agent 开发 + 算法求职路线 |
 | v1.1 | 2026-06-21 | 将每天投入统一为约 1 小时；为每日任务增加资源；收敛目标 | 用户确认真实时间预算和资源要求 |
 | v1.2 | 2026-06-21 | 从计划中移除全部算法练习和模型算法学习；扩展为 30 周、210 天的纯 Agent 专项路线；增加 Web Agent、Harness、安全、可观测性和框架选型深度 | 用户明确算法独立学习且不占 Agent 每日 1 小时，学习周期无需限制在 24 周 |
+| v1.3 | 2026-06-21 | 文件重命名为 `personal-ai-agent-34-week-plan.md`；明确仅排除 LeetCode 式通用算法；重新纳入 Transformer、LoRA、SFT、DPO/GRPO 和 Agent 推理算法；扩展为 34 周、238 天 | 用户澄清“算法学习/练习”特指 LeetCode 考察的算法，并要求同步修改文件名 |
