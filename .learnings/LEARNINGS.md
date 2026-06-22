@@ -28,6 +28,33 @@
 
 ---
 
+## [LRN-20260623-001] correction
+
+**Logged**: 2026-06-23T09:00:00+08:00
+**Priority**: high
+**Status**: resolved
+**Area**: docs
+
+### Summary
+AgentGuide 个人学习计划后续统一在 `original-main` 分支维护，Day 1 笔记使用仓库内真实路径。
+
+### Details
+用户确认后续学习计划、笔记和进度均在 `original-main` 分支进行。计划中的 Day 1 验收路径原写为不存在的 `notes/day01-goal.md`，实际文件位于 `docs/06-notes/day01-goal.md`。
+
+### Suggested Action
+在计划的 Git 生命周期规则中记录默认分支，并将 Day 1 验收链接改为真实相对路径。
+
+### Metadata
+- Source: user_feedback
+- Related Files: docs/05-roadmaps/personal-ai-agent-34-week-plan.md, docs/06-notes/day01-goal.md
+- Tags: git-branch, path, learning-lifecycle
+
+### Resolution
+- **Resolved**: 2026-06-23T09:30:00+08:00
+- **Notes**: 已记录 `original-main` 分支约定，修正验收链接并完成 Day 1 笔记。
+
+---
+
 ## [LRN-20260621-002] correction
 
 **Logged**: 2026-06-21T19:00:00+08:00
