@@ -33,6 +33,74 @@ SyntaxError: Invalid regular expression: /??\s+(\d+)?/g: Nothing to repeat
 
 ---
 
+## [ERR-20260623-002] apply-patch-large-context
+
+**Logged**: 2026-06-23T11:05:00+08:00
+**Priority**: low
+**Status**: resolved
+**Area**: docs
+
+### Summary
+包含多个远距离修改的大补丁因变更记录中的一个术语不一致而整体校验失败。
+
+### Error
+
+```text
+apply_patch verification failed: Failed to find expected lines
+```
+
+### Context
+- 同一补丁同时修改资源索引、多个周计划和变更记录。
+- 补丁预期为 `PPO/GRPO`，原文实际为 `DPO/GRPO`。
+- 补丁校验失败，目标计划文件未发生部分写入。
+
+### Suggested Fix
+对长文档按资源索引、阶段表格和变更记录拆分小补丁；提交前先读取尾部精确文本。
+
+### Metadata
+- Reproducible: yes
+- Related Files: docs/05-roadmaps/personal-ai-agent-34-week-plan.md
+- See Also: ERR-20260623-001
+
+### Resolution
+- **Resolved**: 2026-06-23T11:07:00+08:00
+- **Notes**: 改用多个小范围补丁，降低单处文本漂移导致整体失败的风险。
+
+---
+
+## [ERR-20260623-001] powershell-foreach-pipeline
+
+**Logged**: 2026-06-23T10:30:00+08:00
+**Priority**: low
+**Status**: resolved
+**Area**: tests
+
+### Summary
+PowerShell 中将 `foreach` 语句块直接连接到管道，导致三个仓库的规模统计命令解析失败。
+
+### Error
+
+```text
+An empty pipe element is not allowed.
+```
+
+### Context
+- 尝试使用 `foreach (...) { ... } | Format-Table`。
+- PowerShell 语句形式的 `foreach` 不能像表达式一样直接接管道。
+
+### Suggested Fix
+先将 `foreach` 输出赋值给数组，再对数组执行 `Format-Table`；或使用 `ForEach-Object` 管道。
+
+### Metadata
+- Reproducible: yes
+- Related Files: docs/05-roadmaps/personal-ai-agent-34-week-plan.md
+
+### Resolution
+- **Resolved**: 2026-06-23T10:32:00+08:00
+- **Notes**: 改用数组收集后再格式化输出。
+
+---
+
 ## [ERR-20260621-003] powershell-foreach-spacing
 
 **Logged**: 2026-06-21T20:15:00+08:00
