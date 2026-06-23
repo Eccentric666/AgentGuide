@@ -166,3 +166,36 @@ Variable reference is not valid. ':' was not followed by a valid variable name c
 - **Notes**: 使用 `${day}` 重新执行校验。
 
 ---
+## [ERR-20260624-001] git-commit-option-order
+
+**Logged**: 2026-06-24T00:00:00+08:00
+**Priority**: medium
+**Status**: resolved
+**Area**: docs
+
+### Summary
+`git commit --only -- <path> -m <message>` puts `-m` after `--`, causing Git to treat it as a pathspec.
+
+### Error
+```text
+error: pathspec '-m' did not match any file(s) known to git
+error: pathspec 'learn(agent-day-002): mark environment setup complete' did not match any file(s) known to git
+```
+
+### Context
+- Command attempted while committing only `docs/05-roadmaps/personal-ai-agent-34-week-plan.md`.
+- Existing staged `.idea/.gitignore` made a path-limited commit necessary.
+
+### Suggested Fix
+Put commit options before `--`: `git commit --only -m "<message>" -- <path>`.
+
+### Metadata
+- Reproducible: yes
+- Related Files: docs/05-roadmaps/personal-ai-agent-34-week-plan.md
+
+### Resolution
+- **Resolved**: 2026-06-24T00:00:00+08:00
+- **Commit/PR**: n/a
+- **Notes**: Retried with `git commit --only -m "<message>" -- <path>`.
+
+---
