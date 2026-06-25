@@ -199,3 +199,36 @@ Put commit options before `--`: `git commit --only -m "<message>" -- <path>`.
 - **Notes**: Retried with `git commit --only -m "<message>" -- <path>`.
 
 ---
+## [ERR-20260625-001] apply-patch-large-context
+
+**Logged**: 2026-06-25T00:00:00+08:00
+**Priority**: medium
+**Status**: resolved
+**Area**: docs
+
+### Summary
+Large multi-hunk patch failed because one expected Chinese line used `清晰` while the file used `清楚`.
+
+### Error
+```text
+apply_patch verification failed: Failed to find expected lines in D:\Study\AiAgent\Code\AgentGuide\docs\05-roadmaps\personal-ai-agent-34-week-plan.md:
+**本周验收**：联系人 CLI 可持久化；目录和依赖结构清晰。
+```
+
+### Context
+- Updating the personal AI Agent learning plan to add Runoob Python3 and adjust Python复健安排.
+- The patch mixed unrelated hunks, so one context mismatch blocked the whole update.
+
+### Suggested Fix
+Use smaller patches after locating exact lines with `Select-String -Encoding UTF8`.
+
+### Metadata
+- Reproducible: yes
+- Related Files: docs/05-roadmaps/personal-ai-agent-34-week-plan.md
+
+### Resolution
+- **Resolved**: 2026-06-25T00:00:00+08:00
+- **Commit/PR**: n/a
+- **Notes**: Retried with exact smaller hunks.
+
+---
