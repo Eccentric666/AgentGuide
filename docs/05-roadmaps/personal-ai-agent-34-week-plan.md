@@ -233,7 +233,33 @@ LeetCode 式算法可以平行学习，但不得挤占本计划每天 1 小时�
 | ✅ | Day 18 / 07-09 | 用 Python 请求公开 API | R03；R01「标准库简介」 | 保存成功响应 |
 | ✅ | Day 19 / 07-10 | 处理超时、非 2xx 和坏 JSON | R03「HTTP 状态码」 | 三类失败均有明确错误 |
 | ✅ | Day 20 / 07-11 | 将 API 调用封装成客户端类，补 `@property` / 简单装饰器直觉 | R01「9. 类」；R30「面向对象」「装饰器」 | 业务代码不直接拼请求，并能解释装饰器在日志/重试中的用途 |
-| ⬜ | Day 21 / 07-12 | 周复盘；写 HTTP 调试清单 | R03；第 5 节模板 | 清单覆盖 URL、状态码、body、超时 |
+| ✅ | Day 21 / 07-12 | 周复盘；写 HTTP 调试清单 | R03；第 5 节模板 | 清单覆盖 URL、状态码、body、超时 |
+
+### Week 3 周复盘（2026-07-12）
+
+- Agent 学习完成：7 / 7 天
+- Agent 学习投入：7 / 7 小时
+- 本周最重要产出：
+  - 完成 Git 工作区、暂存区、提交、分支、diff、log 和恢复思路练习。
+  - 完成 HTTP request / response 结构、method、status code、headers、body 的复盘。
+  - 完成公开 API 请求、成功响应保存、失败处理和 API 客户端类封装。
+  - 沉淀 HTTP 调试清单，覆盖 URL、method、headers、timeout、status code、response headers、body preview、JSON 解析和业务结构检查。
+- 已掌握：
+  - 能区分 `HTTPError`、`URLError`、timeout 和 `JSONDecodeError`。
+  - 能把底层异常转换成业务可读异常。
+  - 能解释为什么业务代码不直接拼 URL，而是调用客户端类方法。
+  - 能解释 `@property` 和简单装饰器在日志、耗时统计、重试机制中的用途。
+- 仍然模糊：
+  - 哪些失败适合自动重试，哪些必须交给业务层判断。
+  - response headers 中 rate limit、`Retry-After` 等字段还需要结合真实项目继续练。
+- 最大阻塞：
+  - 无。Week 3 已按计划补齐，下一周进入 FastAPI、Pydantic 与测试。
+- 下周保留：
+  - 继续保持“一个可运行验收 + 详细注释 + mini project 设计文档”的学习方式。
+- 下周删减：
+  - FastAPI 阶段先跑通最小闭环，不提前扩展复杂认证、数据库或部署。
+- 是否需要调整未来日期：
+  - 暂不调整。07-13 按 Day 22 进入第 4 周。
 
 ## 第 4 周：FastAPI、Pydantic 与测试
 
@@ -725,10 +751,10 @@ LeetCode 式算法可以平行学习，但不得挤占本计划每天 1 小时�
 
 | 项目 | 当前值 |
 |:---|:---|
-| 当前日期 | 2026-07-11 |
-| 当前周 / Day | Week 3 / Day 20（已完成） |
-| Agent 完成天数 | 20 / 238 |
-| Agent 累计学习小时 | 20 / 238 |
+| 当前日期 | 2026-07-12 |
+| 当前周 / Day | Week 3 / Day 21（已完成） |
+| Agent 完成天数 | 21 / 238 |
+| Agent 累计学习小时 | 21 / 238 |
 | 最小 Agent | 未开始 |
 | Paper Agent | 未开始 |
 | Paper Agent Eval | 0 / 20+ |
@@ -738,8 +764,8 @@ LeetCode 式算法可以平行学习，但不得挤占本计划每天 1 小时�
 | 一页简历 | 未开始 |
 | 模拟面试 | 0 / 2 |
 | 有效投递 | 0 |
-| 当前最大阻塞 | 无；API 客户端类、`@property` 和简单装饰器直觉已补齐 |
-| 下一步 | 执行 Day 21：周复盘；写 HTTP 调试清单 |
+| 当前最大阻塞 | 无；Week 3 Git、HTTP 与 API 调用已完成，下一步进入 FastAPI |
+| 下一步 | 执行 Day 22：跑通 FastAPI Hello World 和 Swagger |
 
 > LeetCode 式数据结构与算法学习拥有独立计划和统计，不在本仪表盘出现。
 
