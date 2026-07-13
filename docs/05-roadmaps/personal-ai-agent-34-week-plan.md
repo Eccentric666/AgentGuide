@@ -267,7 +267,7 @@ LeetCode 式算法可以平行学习，但不得挤占本计划每天 1 小时�
 
 | 状态 | Day / 日期 | 60 分钟安排 | 学习资源 | 当日验收 |
 |:---:|:---|:---|:---|:---|
-| ⬜ | Day 22 / 07-13 | 跑通 FastAPI Hello World 和 Swagger | R04「第一步」 | `/docs` 可调用 |
+| ✅ | Day 22 / 07-13 | 跑通 FastAPI Hello World 和 Swagger | R04「第一步」 | `/docs` 可调用 |
 | ⬜ | Day 23 / 07-14 | 学路径参数、查询参数和请求体 | R04「路径参数」「查询参数」「请求体」 | GET/POST 可调用 |
 | ⬜ | Day 24 / 07-15 | 学 Pydantic 模型与字段校验 | R06「Models」「Fields」 | 非法 Todo 被拒绝 |
 | ⬜ | Day 25 / 07-16 | 增加 PUT/DELETE 和异常响应 | R04「处理错误」 | 404/422 行为明确 |
@@ -751,10 +751,10 @@ LeetCode 式算法可以平行学习，但不得挤占本计划每天 1 小时�
 
 | 项目 | 当前值 |
 |:---|:---|
-| 当前日期 | 2026-07-12 |
-| 当前周 / Day | Week 3 / Day 21（已完成） |
-| Agent 完成天数 | 21 / 238 |
-| Agent 累计学习小时 | 21 / 238 |
+| 当前日期 | 2026-07-13 |
+| 当前周 / Day | Week 4 / Day 22（已完成） |
+| Agent 完成天数 | 22 / 238 |
+| Agent 累计学习小时 | 22 / 238 |
 | 最小 Agent | 未开始 |
 | Paper Agent | 未开始 |
 | Paper Agent Eval | 0 / 20+ |
@@ -764,8 +764,8 @@ LeetCode 式算法可以平行学习，但不得挤占本计划每天 1 小时�
 | 一页简历 | 未开始 |
 | 模拟面试 | 0 / 2 |
 | 有效投递 | 0 |
-| 当前最大阻塞 | 无；Week 3 Git、HTTP 与 API 调用已完成，下一步进入 FastAPI |
-| 下一步 | 执行 Day 22：跑通 FastAPI Hello World 和 Swagger |
+| 当前最大阻塞 | 无；FastAPI Hello World 与 Swagger 已跑通 |
+| 下一步 | 执行 Day 23：学习路径参数、查询参数和请求体 |
 
 > LeetCode 式数据结构与算法学习拥有独立计划和统计，不在本仪表盘出现。
 
