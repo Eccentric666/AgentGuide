@@ -273,7 +273,36 @@ LeetCode 式算法可以平行学习，但不得挤占本计划每天 1 小时�
 | ✅ | Day 25 / 07-16 | 增加 PUT/DELETE 和异常响应 | R04「处理错误」 | 404/422 行为明确 |
 | ✅ | Day 26 / 07-17 | 学 pytest 基本断言和 fixture | R05「Get Started」 | 写 3 个测试 |
 | ✅ | Day 27 / 07-18 | 扩充正常和异常测试 | R05 | 至少 8 个测试通过 |
-| ⬜ | Day 28 / 07-19 | 周复盘；整理 API 的目录与 README | G19「最终标准」 | 陌生人可启动 API |
+| ✅ | Day 28 / 07-19 | 周复盘；整理 API 的目录与 README | G19「最终标准」 | 陌生人可启动 API |
+
+### Week 4 周复盘（2026-07-19）
+
+- Agent 学习完成：7 / 7 天
+- Agent 学习投入：7 / 7 小时
+- 本周最重要产出：
+  - 完成 `todo_api` 最小 FastAPI 项目，覆盖 GET / POST / PUT / DELETE。
+  - 请求输入覆盖 path parameter、query parameter 和 request body。
+  - 使用 Pydantic 完成请求模型、响应模型和字段校验。
+  - 明确 200、201、204、404、422 的响应边界。
+  - 使用 pytest、fixture 和 FastAPI `TestClient` 写出 11 个测试。
+  - 整理 README、Quickstart、API Reference 和设计文档，达到陌生人可启动状态。
+- 已掌握：
+  - FastAPI app、路由装饰器、Swagger `/docs`。
+  - Pydantic `BaseModel` / `Field`、输入模型和输出模型分离。
+  - `HTTPException`、Pydantic 422、DELETE 204 No Content。
+  - pytest `assert`、fixture、测试隔离和 API 回归测试。
+- 仍然模糊：
+  - 数据库接入后的测试隔离会更复杂。
+  - 自定义异常响应格式和路由拆分还未系统练习。
+- 最大阻塞：
+  - Day 22 曾遇到 8000 端口被已有 `uvicorn` 进程占用；已在 README 中保留换端口启动方式。
+- 下周保留：
+  - 保留“讲义 + 设计文档 + 可运行代码 + 自动测试”的学习结构。
+  - LLM API 阶段继续把成功和失败边界写进调试清单或测试。
+- 下周删减：
+  - 不急着引入数据库、登录、前端页面；先跑通 LLM API 最小调用和结构化输出。
+- 是否需要调整未来日期：
+  - 暂不调整。07-20 按 Day 29 进入第 5 周。
 
 ## 第 5 周：LLM API 与结构化输出
 
@@ -751,10 +780,10 @@ LeetCode 式算法可以平行学习，但不得挤占本计划每天 1 小时�
 
 | 项目 | 当前值 |
 |:---|:---|
-| 当前日期 | 2026-07-18 |
-| 当前周 / Day | Week 4 / Day 27（已完成） |
-| Agent 完成天数 | 27 / 238 |
-| Agent 累计学习小时 | 27 / 238 |
+| 当前日期 | 2026-07-19 |
+| 当前周 / Day | Week 4 / Day 28（已完成） |
+| Agent 完成天数 | 28 / 238 |
+| Agent 累计学习小时 | 28 / 238 |
 | 最小 Agent | 未开始 |
 | Paper Agent | 未开始 |
 | Paper Agent Eval | 0 / 20+ |
@@ -764,8 +793,8 @@ LeetCode 式算法可以平行学习，但不得挤占本计划每天 1 小时�
 | 一页简历 | 未开始 |
 | 模拟面试 | 0 / 2 |
 | 有效投递 | 0 |
-| 当前最大阻塞 | 无；正常和异常路径测试已扩充，11 个测试通过 |
-| 下一步 | 执行 Day 28：周复盘；整理 API 的目录与 README |
+| 当前最大阻塞 | 无；Week 4 FastAPI、Pydantic 与测试已完成 |
+| 下一步 | 执行 Day 29：理解 message、token、上下文和生成参数 |
 
 > LeetCode 式数据结构与算法学习拥有独立计划和统计，不在本仪表盘出现。
 
