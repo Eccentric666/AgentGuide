@@ -324,7 +324,7 @@ LeetCode 式算法可以平行学习，但不得挤占本计划每天 1 小时�
 
 | 状态 | Day / 日期 | 60 分钟安排 | 学习资源 | 当日验收 |
 |:---:|:---|:---|:---|:---|
-| ⬜ | Day 36 / 07-27 | 区分 chatbot、workflow、agent、multi-agent | G04「Agent 不等于 Chatbot」；T03 第 1 章「初识智能体」相关小节 | 画边界表 |
+| ✅ | Day 36 / 07-27 | 区分 chatbot、workflow、agent、multi-agent | G04「Agent 不等于 Chatbot」；T03 第 1 章「初识智能体」相关小节 | 画边界表 |
 | ⬜ | Day 37 / 07-28 | 学 Agent 最小闭环和组成部分 | G04「最小闭环」「8 个组成部分」 | 不看资料口述闭环 |
 | ⬜ | Day 38 / 07-29 | 学什么时候不该用 Agent | G04「什么时候不该用 Agent」；R09 | 写 5 个反例 |
 | ⬜ | Day 39 / 07-30 | 学 ReAct 基本模式 | G06「基本模式」；T03 第 4 章 ReAct 小节 | 写 observe-act-observe 伪代码 |
@@ -780,10 +780,10 @@ LeetCode 式算法可以平行学习，但不得挤占本计划每天 1 小时�
 
 | 项目 | 当前值 |
 |:---|:---|
-| 当前日期 | 2026-07-27 |
-| 当前周 / Day | Week 6 / Day 36（待开始） |
-| Agent 完成天数 | 35 / 238 |
-| Agent 累计学习小时 | 35 / 238 |
+| 当前日期 | 2026-07-28 |
+| 当前周 / Day | Week 6 / Day 37（待开始） |
+| Agent 完成天数 | 36 / 238 |
+| Agent 累计学习小时 | 36 / 238 |
 | 最小 Agent | 未开始 |
 | Paper Agent | 未开始 |
 | Paper Agent Eval | 0 / 20+ |
@@ -793,8 +793,8 @@ LeetCode 式算法可以平行学习，但不得挤占本计划每天 1 小时�
 | 一页简历 | 未开始 |
 | 模拟面试 | 0 / 2 |
 | 有效投递 | 0 |
-| 当前最大阻塞 | 无；Week 5 LLM API 与结构化输出已复盘 |
-| 下一步 | 执行 Day 36：区分 chatbot、workflow、agent、multi-agent |
+| 当前最大阻塞 | 无；已完成 chatbot / workflow / agent / multi-agent 边界表 |
+| 下一步 | 执行 Day 37：学 Agent 最小闭环和组成部分 |
 
 > LeetCode 式数据结构与算法学习拥有独立计划和统计，不在本仪表盘出现。
 
